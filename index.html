@@ -29,7 +29,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="fw-bold navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#subscribe">Subscribe</a>
@@ -107,8 +107,14 @@
         <!--packeges-->
         <section>
             <div class="container" id="subscribe">
-                <h1 class="text-center mb-5">Our Packeges</h1>
-                <div class="row row-cols-1 row-cols-md-4 g-4 mb-5">
+                <h1 class="text-center mb-10">Our Packeges</h1>
+                <div class="toast show position-absolute top-20 end-0">
+                    <div class="toast-body bg-primary text-light">
+                        10% off for second booking
+                        <button type="button" class="btn-close btn-light" data-bs-dismiss="toast"></button>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-4 g-4 my-5">
                     <div class="col">
                         <div class="card h-100">
                             <div class="card-body">
@@ -184,12 +190,31 @@
 
             </div>
         </section>
+        <!--Site plan-->
+        <section>
+            <div class="container">
+                <div class="my-5 ">
+                    <div class="row">
+                        <div
+                            class="text-light text-center col-md-6 mb-5 d-flex flex-column justify-content-center align-items-center bg-dark rounded">
+                            <h1 class="fw-bold">Site Plan</h1>
+                            <p>Rangdhonu Convention Center exhibition halls. </p>
+                            <p>All conference rooms and exhibition halls at a
+                                glance.</p>
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <img class="img-fluid" src="images/ConventionCenterFloorPlan.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!--Answer/accordian section-->
         <section>
             <div class="container" id="aboutus">
                 <h1 class="text-center mb-5">Frequently Asked Questions</h1>
                 <div class="row">
-                    <div class=" col-12 col-md-6 g-4 mb-5">
+                    <div class=" col-sm-12 col-md-6 g-4 mb-5">
                         <div class="accordion" id="accordionPanelsStayOpenExample">
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -277,7 +302,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" col-12 col-md-6 g-4 mb-5">
+                    <div class=" col-sm-12 col-md-6 g-4 mb-5">
                         <img src="images/people.png" alt="">
                     </div>
                 </div>
@@ -287,7 +312,7 @@
     </main>
     <!--footer-->
     <footer>
-        <section class="bg-dark container-max-widths" id="contact">
+        <section class="bg-dark" id="contact">
             <div class="d-flex justify-content-around py-5">
                 <div class=" d-flex align-items-center">
                     <p class="text-light"><small>&copy 2022. All rights reserved.</small></p>
