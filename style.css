@@ -12,6 +12,6 @@ font-family: 'Roboto Slab', serif;
     height: calc(100vh-60px);
 }
 .back-img{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.356);
     background-blend-mode: overlay;
 }
