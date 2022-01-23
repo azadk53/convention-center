@@ -1,3 +1,10 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@400;500;600&family=Roboto+Slab&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
 .navigation{
     height: 60px;
 }
@@ -7,4 +14,13 @@
 .back-img{
     background-color: rgb(0, 0, 0);
     background-blend-mode: overlay;
+}
+
+/*----responsive------*/
+.container-max-widths{
+    sm: 540px;
+    md: 720px;
+    lg: 960px;
+    xl: 1140px;
+    xxl: 1320px
 }
