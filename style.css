@@ -4,3 +4,7 @@
 .banner{
     height: calc(100vh-60px);
 }
+.back-img{
+    background-color: rgb(0, 0, 0);
+    background-blend-mode: overlay;
+}
